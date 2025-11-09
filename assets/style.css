@@ -1,0 +1,182 @@
+/* Reset dan Global Style */
+:root {
+    --primary-color: #4a90e2;
+    --secondary-color: #50e3c2;
+    --dark-color: #333;
+    --light-color: #f4f4f4;
+    --danger-color: #e74c3c;
+    --success-color: #2ecc71;
+    --font-family: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    background-color: #f0f2f5; /* Warna latar belakang seperti Google Forms */
+    color: var(--dark-color);
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+/* Google Form Style Redesign */
+.gform-container {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.gform-header-card {
+    background-color: white;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.gform-header-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: #4285f4; /* Google Blue */
+    border-radius: 8px 8px 0 0;
+}
+
+.gform-card {
+    background-color: white;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: box-shadow 0.2s;
+    position: relative;
+}
+
+.gform-card:focus-within {
+    border-color: #a5b4fc;
+    box-shadow: 0 0 0 2px #c7d2fe;
+}
+
+.gform-textarea {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 4px 4px 0 0;
+    padding: 16px;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-bottom 0.2s, background-color 0.2s;
+    line-height: 1.5;
+}
+
+.gform-textarea:focus {
+    outline: none;
+    background-color: white;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 15px; /* adjust for thicker border */
+}
+
+.gform-input {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+    font-size: 0.95rem;
+    width: 100%;
+    transition: border-bottom 0.2s;
+}
+.gform-input:focus {
+    outline: none;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 9px;
+}
+
+
+.gform-select {
+    padding: 8px 12px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    background-color: white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.gform-select:focus {
+    outline: none;
+    border-color: #4285f4;
+    box-shadow: 0 0 0 1px #4285f4;
+}
+
+.gform-option-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.gform-option-item input[type="radio"] {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    accent-color: #4285f4;
+}
+
+.gform-icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #5f6368;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.gform-icon-button:hover {
+    background-color: #f1f3f4;
+}
+
+.gform-static-question {
+    padding: 24px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background-color: #fff;
+}
+
+.gform-static-question .badge {
+    background-color: #e8f0fe;
+    color: #1967d2;
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.gform-static-options li {
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-top: 4px;
+    list-style-position: outside;
+    margin-left: 1.5rem;
+}
+.gform-static-options li.correct {
+    background-color: #e6f4ea;
+    color: #185e37;
+    font-weight: 600;
+}
+.gform-static-options li.correct::marker {
+    color: #185e37;
+    font-weight: bold;
+}

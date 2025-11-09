@@ -1,0 +1,22 @@
+[14-Jul-2025 09:20:03 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rotz3716/public_html/teacher/header.php:11) in /home/rotz3716/public_html/teacher/create_exam.php on line 26
+[14-Jul-2025 09:20:33 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rotz3716/public_html/teacher/header.php:11) in /home/rotz3716/public_html/teacher/create_exam.php on line 26
+[14-Jul-2025 09:22:33 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rotz3716/public_html/teacher/header.php:11) in /home/rotz3716/public_html/teacher/manage_exam.php on line 6
+[14-Jul-2025 09:25:45 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rotz3716/public_html/teacher/header.php:11) in /home/rotz3716/public_html/teacher/dashboard.php on line 38
+[14-Jul-2025 09:25:53 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rotz3716/public_html/teacher/header.php:11) in /home/rotz3716/public_html/teacher/dashboard.php on line 38
+[14-Jul-2025 09:28:23 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rotz3716/public_html/teacher/header.php:11) in /home/rotz3716/public_html/teacher/create_exam.php on line 26
+[14-Jul-2025 09:29:24 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rotz3716/public_html/teacher/header.php:11) in /home/rotz3716/public_html/teacher/create_exam.php on line 26
+[14-Jul-2025 09:30:17 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rotz3716/public_html/teacher/header.php:11) in /home/rotz3716/public_html/teacher/dashboard.php on line 38
+[14-Jul-2025 09:41:14 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rotz3716/public_html/teacher/header.php:11) in /home/rotz3716/public_html/teacher/edit_question.php on line 94
+[30-Oct-2025 18:52:34 Asia/Jakarta] PHP Warning:  move_uploaded_file(../uploads/img_69035182175095.49542795.php): Failed to open stream: No such file or directory in /home/rotz3716/public_html/teacher/manage_exam.php on line 73
+[30-Oct-2025 18:52:34 Asia/Jakarta] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9Xu7i4' to '../uploads/img_69035182175095.49542795.php' in /home/rotz3716/public_html/teacher/manage_exam.php on line 73
+[05-Nov-2025 23:41:38 Asia/Jakarta] PHP Warning:  move_uploaded_file(../uploads/opt_690b7e42650635.64652071.jfif): Failed to open stream: No such file or directory in /home/rotz3716/public_html/teacher/edit_question.php on line 91
+[05-Nov-2025 23:41:38 Asia/Jakarta] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phphH0bwg' to '../uploads/opt_690b7e42650635.64652071.jfif' in /home/rotz3716/public_html/teacher/edit_question.php on line 91
+[06-Nov-2025 01:13:34 Asia/Jakarta] Berhasil upload 0 gambar pendukung untuk soal ID: 77
+[06-Nov-2025 01:15:48 Asia/Jakarta] Berhasil upload 2 opsi gambar untuk soal ID: 78
+[06-Nov-2025 01:15:48 Asia/Jakarta] Berhasil upload 0 gambar pendukung untuk soal ID: 78
+[06-Nov-2025 01:22:34 Asia/Jakarta] SUCCESS: Uploaded 2 opsi gambar untuk soal ID: 79
+[06-Nov-2025 01:22:34 Asia/Jakarta] SUCCESS: Uploaded 0 gambar pendukung untuk soal ID: 79
+[06-Nov-2025 01:50:01 Asia/Jakarta] UPLOAD RESULT: 2/4 opsi gambar untuk soal ID: 80
+[06-Nov-2025 01:50:01 Asia/Jakarta] UPLOAD RESULT: 0/1 gambar pendukung untuk soal ID: 80
+[06-Nov-2025 06:08:13 Asia/Jakarta] PHP Warning:  move_uploaded_file(../uploads/opt_690bd8dde4bfd7.06605223.jpg): Failed to open stream: No such file or directory in /home/rotz3716/public_html/teacher/edit_question.php on line 118
+[06-Nov-2025 06:08:13 Asia/Jakarta] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpmKzSXN' to '../uploads/opt_690bd8dde4bfd7.06605223.jpg' in /home/rotz3716/public_html/teacher/edit_question.php on line 118
